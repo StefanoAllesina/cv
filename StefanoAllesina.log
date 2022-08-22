@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.11.15)  21 AUG 2022 17:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.11.15)  22 AUG 2022 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,11 +928,11 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 862.
 [6] [7] [8] [9] [10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1117.
 (./StefanoAllesina.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1115.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1117.
 
 Package rerunfilecheck Info: File `StefanoAllesina.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -940,7 +940,7 @@ Package rerunfilecheck Info: File `StefanoAllesina.out' has not changed.
 Here is how much of TeX's memory you used:
  32213 strings out of 479819
  632815 string characters out of 5895845
- 1131780 words of memory out of 5000000
+ 1134228 words of memory out of 5000000
  48783 multiletter control sequences out of 15000+600000
  535680 words of font info for 106 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
