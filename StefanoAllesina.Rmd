@@ -8,13 +8,8 @@ github: StefanoAllesina
 googlescholar: "14DTOacAAAA"
 researchgate: Stefano-Allesina
 date: "`r format(Sys.time(), '%B %Y')`"
-papersize: letter
-fontsize: 10
 output:
-  vitae::awesomecv:
-    page_total: true
-    keep_tex: true
-csl: sa2.csl
+  vitae::awesomecv: default
 ---
 
 ```{r setup, include=FALSE}
