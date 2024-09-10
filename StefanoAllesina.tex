@@ -81,13 +81,16 @@
 %------------------------------------------------------------------------------
 
 
+\usepackage{soul}
+\usepackage[backend=biber]{biblatex}
+\usepackage{enumitem}
 
 % Pandoc CSL macros
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
 \newlength{\csllabelwidth}
 \setlength{\csllabelwidth}{2em}
-\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
  {% don't indent paragraphs
   \setlength{\parindent}{0pt}
   % turn on hanging indent if param 1 is 1
@@ -113,6 +116,10 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 % 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {September 2024}
+    {Stefano Allesina~~~·~~~Curriculum Vitae}
+  {\thepage~ of \pageref{LastPage}~}
 
 
 %-------------------------------------------------------------------------------
@@ -156,608 +163,621 @@
 \section{Published articles}\label{published-articles}}
 
 \hypertarget{bibliography}{}
-\leavevmode\vadjust pre{\hypertarget{ref-miller2022no}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-servan2023effects}{}}%
 \CSLLeftMargin{1 }%
-\CSLRightInline{Miller, Z. R., Lechón-Alonso, P. and Allesina, S. (2022)
-No robust multispecies coexistence in a canonical model of plant--soil
-feedbacks. \uline{Ecology Letters} 25, 1690--1698.}
+\CSLRightInline{Serván, C. A., Capitán, J. A., Miller, Z. R. and
+Allesina, S. (2024) Effects of phylogeny on coexistence in model
+communities. \ul{The American Naturalist} (accepted).}
+
+\leavevmode\vadjust pre{\hypertarget{ref-lemos2023phylogeny}{}}%
+\CSLLeftMargin{2 }%
+\CSLRightInline{Lemos-Costa, P., Miller, Z. R. and Allesina, S. (2024)
+Phylogeny structures species' interactions in experimental ecological
+communities. \ul{Ecology Letters} e14490.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-miller2024coexistence}{}}%
+\CSLLeftMargin{3 }%
+\CSLRightInline{Miller, Z. R., Clenet, M., Della Libera, K., Massol, F.
+and Allesina, S. (2024) Coexistence of many species under a random
+competition--colonization trade-off. \ul{Proceedings of the National
+Academy of Sciences}, National Acad Sciences 121, e2314215121.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-skwara2023modelling}{}}%
+\CSLLeftMargin{4 }%
+\CSLRightInline{Skwara, A., Lemos-Costa, P., Miller, Z. R. and Allesina,
+S. (2023) Modelling ecological communities when composition is
+manipulated experimentally. \ul{Methods in Ecology and Evolution}, Wiley
+Online Library 14, 696--707.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-medeiros2023ranking}{}}%
+\CSLLeftMargin{5 }%
+\CSLRightInline{Medeiros, L. P., Allesina, S., Dakos, V., Sugihara, G.
+and Saavedra, S. (2023) Ranking species based on sensitivity to
+perturbations under non-equilibrium community dynamics. \ul{Ecology
+Letters}, Wiley Online Library 26, 170--183.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-miller2023habitat}{}}%
+\CSLLeftMargin{6 }%
+\CSLRightInline{Miller, Z. R. and Allesina, S. (2023) Habitat
+heterogeneity, environmental feedbacks, and species coexistence across
+timescales. \ul{The American Naturalist}, The University of Chicago
+Press Chicago, IL 202, E53--E64.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-miller2022no}{}}%
+\CSLLeftMargin{7 }%
+\CSLRightInline{Miller, Z. R., Lechon-Alonso, P. and Allesina, S. (2022)
+No robust multispecies coexistence in a canonical model of plant-soil
+feedbacks. \ul{Ecology Letters} 25, 1690--1698.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-de2021local}{}}%
-\CSLLeftMargin{2 }%
+\CSLLeftMargin{8 }%
 \CSLRightInline{Castro, F. de, Adl, S. M., Allesina, S., Bardgett, R.
 D., Bolger, T., Dalzell, J. J., Emmerson, M., Fleming, T., Garlaschelli,
 D., Grilli, J., et al. (2021) Local stability properties of complex,
-species-rich soil food webs with functional block structure.
-\uline{Ecology and evolution} 11, 16070--16081.}
+species-rich soil food webs with functional block structure. \ul{Ecology
+and evolution} 11, 16070--16081.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-miller2021metapopulations}{}}%
-\CSLLeftMargin{3 }%
+\CSLLeftMargin{9 }%
 \CSLRightInline{Miller, Z.R. and Allesina, S. (2021) Metapopulations
-with habitat modification. \uline{Proceedings of the National Academy of
+with habitat modification. \ul{Proceedings of the National Academy of
 Sciences} 118.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-servan2021tractable}{}}%
-\CSLLeftMargin{4 }%
+\CSLLeftMargin{10 }%
 \CSLRightInline{Serván, C.A. and Allesina, S. (2021) Tractable models of
-ecological assembly. \uline{Ecology Letters} 24, 1029--1037.}
+ecological assembly. \ul{Ecology Letters} 24, 1029--1037.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-endpoints}{}}%
-\CSLLeftMargin{5 }%
+\CSLLeftMargin{11 }%
 \CSLRightInline{Maynard, D.S., Miller, Z.R. and Allesina, S. (2020)
 Predicting coexistence in experimental ecological communities.
-\uline{Nature Ecology \& Evolution} 4, 91--100.}
+\ul{Nature Ecology \& Evolution} 4, 91--100.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-costa2019ecological}{}}%
-\CSLLeftMargin{6 }%
+\CSLLeftMargin{12 }%
 \CSLRightInline{Costa, A., González, A. M. M., Guizien, K., Doglioli, A.
 M., Gómez, J. M., Petrenko, A. A. and Allesina, S. (2019) Ecological
 networks: Pursuing the shortest path, however narrow and crooked.
-\uline{Scientific reports} 9, 1--13.}
+\ul{Scientific reports} 9, 1--13.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-jovic2019transcriptome}{}}%
-\CSLLeftMargin{7 }%
+\CSLLeftMargin{13 }%
 \CSLRightInline{Jovic, K., Grilli, J., Sterken, M. G., Snoek, B. L.,
 Riksen, J. A., Allesina, S. and Kammenga, J. E. (2019) Transcriptome
-resilience predicts thermotolerance in Caenorhabditis elegans.
-\uline{BMC biology} 17, 102.}
+resilience predicts thermotolerance in Caenorhabditis elegans. \ul{BMC
+biology} 17, 102.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-quadratic}{}}%
-\CSLLeftMargin{8 }%
+\CSLLeftMargin{14 }%
 \CSLRightInline{Maynard, D.S., Wootton, J. T., Serván, C.A. and
 Allesina, S. (2019) Reconciling empirical interactions and species
-coexistence. \uline{Ecology letters} 22, 1028--1037.}
+coexistence. \ul{Ecology letters} 22, 1028--1037.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-maynard2019phenotypic}{}}%
-\CSLLeftMargin{9 }%
+\CSLLeftMargin{15 }%
 \CSLRightInline{Maynard, D.S., Serván, C.A., Capitán, J. A. and
 Allesina, S. (2019) Phenotypic variability promotes diversity and
-stability in competitive communities. \uline{Ecology letters} 22,
+stability in competitive communities. \ul{Ecology letters} 22,
 1776--1786.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-michalska2019telling}{}}%
-\CSLLeftMargin{10 }%
+\CSLLeftMargin{16 }%
 \CSLRightInline{Michalska-Smith, M.J. and Allesina, S. (2019) Telling
 ecological networks apart by their structure: A computational challenge.
-\uline{PLoS computational biology} 15, e1007076.}
+\ul{PLoS computational biology} 15, e1007076.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-chen2019gene}{}}%
-\CSLLeftMargin{11 }%
+\CSLLeftMargin{17 }%
 \CSLRightInline{Chen, Y., Shen, Y., Lin, P., Tong, D., Zhao, Y.,
 Allesina, S., Shen, X. and Wu, C.-I. (2019) Gene regulatory network
 stabilized by pervasive weak repressions: microRNA functions revealed by
-the may--wigner theory. \uline{National Science Review} 6, 1176--1188.}
+the may--wigner theory. \ul{National Science Review} 6, 1176--1188.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-density}{}}%
-\CSLLeftMargin{12 }%
+\CSLLeftMargin{18 }%
 \CSLRightInline{Gibbs, T., Grilli, J. and Allesina, S. (2018) Effect of
 population abundances on the stability of large random ecosystems.
-\uline{Physical Review E} 98.}
+\ul{Physical Review E} 98.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-spandrels}{}}%
-\CSLLeftMargin{13 }%
+\CSLLeftMargin{19 }%
 \CSLRightInline{Maynard, D.S., Serván, C.A. and Allesina, S. (2018)
-Network spandrels reflect ecological assembly. \uline{Ecology Letters}
-21, 324--334.}
+Network spandrels reflect ecological assembly. \ul{Ecology Letters} 21,
+324--334.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-pargroups}{}}%
-\CSLLeftMargin{14 }%
+\CSLLeftMargin{20 }%
 \CSLRightInline{Michalska-Smith, M.J., Sander, E.L., Pascual, M. and
 Allesina, S. (2018) Understanding the role of parasites in food webs
-using the group model. \uline{Journal of Animal Ecology} 87, 790--800.}
+using the group model. \ul{Journal of Animal Ecology} 87, 790--800.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-randomzoo}{}}%
-\CSLLeftMargin{15 }%
+\CSLLeftMargin{21 }%
 \CSLRightInline{Serván, C.A., Capitán, J. A., Grilli, J., Morrison, K.
 E. and Allesina, S. (2018) Coexistence of many species in random
-ecosystems. \uline{Nature Ecology \& Evolution} 2, 1237.}
+ecosystems. \ul{Nature Ecology \& Evolution} 2, 1237.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-diagonal}{}}%
-\CSLLeftMargin{16 }%
+\CSLLeftMargin{22 }%
 \CSLRightInline{Barabás, G., Michalska-Smith, M.J. and Allesina, S.
 (2017) Self-regulation and the stability of large ecological networks.
-\uline{Nature Ecology \& Evolution} 1, 1870.}
+\ul{Nature Ecology \& Evolution} 1, 1870.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-namepairs}{}}%
-\CSLLeftMargin{17 }%
+\CSLLeftMargin{23 }%
 \CSLRightInline{Grilli, J. and Allesina, S. (2017) Last name analysis of
 mobility, gender imbalance, and nepotism across academic systems.
-\uline{Proceedings of the National Academy of Sciences of the United
-States of America} 114, 7600--7605.}
+\ul{Proceedings of the National Academy of Sciences of the United States
+of America} 114, 7600--7605.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-hoi}{}}%
-\CSLLeftMargin{18 }%
+\CSLLeftMargin{24 }%
 \CSLRightInline{Grilli, J., Barabás, G., Michalska-Smith, M.J. and
 Allesina, S. (2017) Higher-order interactions stabilize dynamics in
-competitive network models. \uline{Nature} 548, 210--213.}
+competitive network models. \ul{Nature} 548, 210--213.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-feasibility}{}}%
-\CSLLeftMargin{19 }%
+\CSLLeftMargin{25 }%
 \CSLRightInline{Grilli, J., Adorisio, M., Suweis, S., Barabás, G.,
 Banavar, J. R., Allesina, S. and Maritan, A. (2017) Feasibility and
-coexistence of large ecological communities. \uline{Nature
-Communications} 8, 14389.}
+coexistence of large ecological communities. \ul{Nature Communications}
+8, 14389.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-reviewcoex}{}}%
-\CSLLeftMargin{20 }%
+\CSLLeftMargin{26 }%
 \CSLRightInline{Levine, J. M., Bascompte, J., Adler, P. and Allesina, S.
 (2017) Beyond pairwise coexistence: Biodiversity maintenance in complex
-ecological communities. \uline{Nature} 546, 3376--3386.}
+ecological communities. \ul{Nature} 546, 3376--3386.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-worms}{}}%
-\CSLLeftMargin{21 }%
+\CSLLeftMargin{27 }%
 \CSLRightInline{Jovic, K., Sterken, M. G., Grilli, J., Bevers, R. P. J.,
 Rodriguez, M., Riksen, J. A. G., Allesina, S., Kammenga, J. E. and
 Snoek, L. B. (2017) Temporal dynamics of gene expression in
-heat-stressed caenorhabditis elegans. \uline{PLoS ONE} 12.}
+heat-stressed caenorhabditis elegans. \ul{PLoS ONE} 12.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-laura}{}}%
-\CSLLeftMargin{22 }%
+\CSLLeftMargin{28 }%
 \CSLRightInline{Dee, L. E., Allesina, S., Bonn, A., Eklöf, A., Gaines,
 S. D., Hines, J., Jacob, U., McDonald-Madden, E., Possingham, H.,
 Schröter, M., et al. (2017) Operationalizing network theory for
-ecosystem service assessments. \uline{Trends in Ecology \& Evolution}
-32, 118--130.}
+ecosystem service assessments. \ul{Trends in Ecology \& Evolution} 32,
+118--130.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-productivity}{}}%
-\CSLLeftMargin{23 }%
+\CSLLeftMargin{29 }%
 \CSLRightInline{Michalska-Smith, M.J. and Allesina, S. (2017) And, not
-Or: Quality, quantity in scientific publishing. \uline{PLoS One} 12,
+Or: Quality, quantity in scientific publishing. \ul{PLoS One} 12,
 e0178074.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-lizbayes}{}}%
-\CSLLeftMargin{24 }%
+\CSLLeftMargin{30 }%
 \CSLRightInline{Sander, E.L., Wootton, J. T. and Allesina, S. (2017)
 Ecological network inference from long-term presence-absence data.
-\uline{Scientific reports} 7, 7154.}
+\ul{Scientific reports} 7, 7154.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-intrainter}{}}%
-\CSLLeftMargin{25 }%
+\CSLLeftMargin{31 }%
 \CSLRightInline{Barabás, G., Smith, M.J. and Allesina, S. (2016) The
 effect of intra- and interspecific competition on coexistence in
-multispecies communities. \uline{American Naturalist} 188, E1--E12.}
+multispecies communities. \ul{American Naturalist} 188, E1--E12.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-song}{}}%
-\CSLLeftMargin{26 }%
+\CSLLeftMargin{32 }%
 \CSLRightInline{Masco, C., Allesina, S., Mennill, D. J. and
 Pruett-Jones, S. (2016) Song overlapping: Distinguishing between
-intention and chance. \uline{Bioacoustics} 25, 29--40.}
+intention and chance. \ul{Bioacoustics} 25, 29--40.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-modularityquaternions}{}}%
-\CSLLeftMargin{27 }%
+\CSLLeftMargin{33 }%
 \CSLRightInline{Grilli, J., Rogers, T. and Allesina, S. (2016)
-Modularity and stability in ecological communities. \uline{Nature
+Modularity and stability in ecological communities. \ul{Nature
 Communications} 7, 12031+.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Sophie}{}}%
-\CSLLeftMargin{28 }%
+\CSLLeftMargin{34 }%
 \CSLRightInline{McCoy, S. J., Pfister, C. A. and Allesina, S. (2016)
 Ocean acidification affects competition for space: Projections of
-community structure using cellular automata. \uline{Proceedings of the
+community structure using cellular automata. \ul{Proceedings of the
 Royal Society B: Biological Sciences} 283, 20152561.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-eyeball}{}}%
-\CSLLeftMargin{29 }%
+\CSLLeftMargin{35 }%
 \CSLRightInline{Allesina, S., Grilli, J., Barabás, G., Tang, S.,
 Aljadeff, J. and Maritan, A. (2015) Predicting the stability of large
-structured food webs. \uline{Nature Communications} 6, 7842.}
+structured food webs. \ul{Nature Communications} 6, 7842.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Japan}{}}%
-\CSLLeftMargin{30 }%
+\CSLLeftMargin{36 }%
 \CSLRightInline{Allesina, S. and Tang, S. (2015) The
 stability-complexity relationship at age 40: A random matrix
-perspective. \uline{Population Ecology} 57, 63--75.}
+perspective. \ul{Population Ecology} 57, 63--75.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-binning}{}}%
-\CSLLeftMargin{31 }%
+\CSLLeftMargin{37 }%
 \CSLRightInline{Barabás, G. and Allesina, S. (2015) Predicting global
 community properties from uncertain estimates of interaction strengths.
-\uline{Journal of the Royal Society Interface} 12, 20150218.}
+\ul{Journal of the Royal Society Interface} 12, 20150218.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-metapop}{}}%
-\CSLLeftMargin{32 }%
+\CSLLeftMargin{38 }%
 \CSLRightInline{Grilli, J., Barabás, G. and Allesina, S. (2015)
-Metapopulation persistence in random fragmented landscapes. \uline{PLoS
+Metapopulation persistence in random fragmented landscapes. \ul{PLoS
 Computational Biology} 11, e1004251.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Jon}{}}%
-\CSLLeftMargin{33 }%
+\CSLLeftMargin{39 }%
 \CSLRightInline{Borrelli, J. J., Allesina, S., Amarasekare, P., Arditi,
 R., Chase, I., Damuth, J., Ginzburg, L., Holt, R. D., Logofet, D. O.,
 Novak, M., et al. (2015) Selection on stability across ecological
-scales. \uline{Trends in Ecology \& Evolution} 30, 417--425.}
+scales. \ul{Trends in Ecology \& Evolution} 30, 417--425.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-samir}{}}%
-\CSLLeftMargin{34 }%
+\CSLLeftMargin{40 }%
 \CSLRightInline{Suweis, S., Grilli, J., Banavar, J., Allesina, S. and
 Maritan, A. (2015) Effect of localization on the stability of
-mutualistic ecological networks. \uline{Nature Communications} 6,
-10179+.}
+mutualistic ecological networks. \ul{Nature Communications} 6, 10179+.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-signgroup}{}}%
-\CSLLeftMargin{35 }%
+\CSLLeftMargin{41 }%
 \CSLRightInline{Sander, S., Wootton, J. T. and Allesina, S. (2015) What
-can interaction webs tell us about species roles? \uline{PLoS
-Computational Biology} 11, e10043330.}
+can interaction webs tell us about species roles? \ul{PLoS Computational
+Biology} 11, e10043330.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-neutelcomment}{}}%
-\CSLLeftMargin{36 }%
+\CSLLeftMargin{42 }%
 \CSLRightInline{Smith, M.J., Sander, S., Barabás, G. and Allesina, S.
-(2015) Stability and feedback levels in food web models. \uline{Ecology
+(2015) Stability and feedback levels in food web models. \ul{Ecology
 Letters} 18, 593--595.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Abstracts}{}}%
-\CSLLeftMargin{37 }%
+\CSLLeftMargin{43 }%
 \CSLRightInline{Weinberger, C.J., Evans, J. A. and Allesina, S. (2015)
-Ten simple (empirical) rules for writing science. \uline{PLoS
-Computational Biology} 11, e1004205.}
+Ten simple (empirical) rules for writing science. \ul{PLoS Computational
+Biology} 11, e1004205.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Lizzie}{}}%
-\CSLLeftMargin{38 }%
+\CSLLeftMargin{44 }%
 \CSLRightInline{Wolkovich, E. M., Allesina, S., Cottingham, K. L.,
 Moore, J. C., Sandin, S. A. and Mazancourt, C. de. (2014) Linking the
 green and brown worlds: The prevalence and effect of multi-channel
-feeding in food webs. \uline{Ecology} 95, 3376--3386.}
+feeding in food webs. \ul{Ecology} 95, 3376--3386.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Countrycit}{}}%
-\CSLLeftMargin{39 }%
+\CSLLeftMargin{45 }%
 \CSLRightInline{Smith, M.J., Weinberger, C., Bruna, E. and Allesina, S.
 (2014) The Scientific Impact of nations: Journal Placement and Citation
-Performance. \uline{PLoS ONE} 9, e109195.}
+Performance. \ul{PLoS ONE} 9, e109195.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-GBU}{}}%
-\CSLLeftMargin{40 }%
+\CSLLeftMargin{46 }%
 \CSLRightInline{Staniczenko, P.P.A., Smith, M.J. and Allesina, S. (2014)
 Selecting food web models using normalised maximum likelihood.
-\uline{Methods in Ecology and Evolution} 5, 551--562.}
+\ul{Methods in Ecology and Evolution} 5, 551--562.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Reactivity}{}}%
-\CSLLeftMargin{41 }%
+\CSLLeftMargin{47 }%
 \CSLRightInline{Tang, S. and Allesina, S. (2014) Reactivity and
-stability of large ecosystems. \uline{Frontiers in Ecology and
-Evolution} 2, art no. 21.}
+stability of large ecosystems. \ul{Frontiers in Ecology and Evolution}
+2, art no. 21.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Stability2}{}}%
-\CSLLeftMargin{42 }%
+\CSLLeftMargin{48 }%
 \CSLRightInline{Tang, S., Pawar, S. and Allesina, S. (2014) Correlation
 between interaction strengths drives stability in large ecological
-networks. \uline{Ecology Letters} 17, 1094--1100.}
+networks. \ul{Ecology Letters} 17, 1094--1100.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Chris2}{}}%
-\CSLLeftMargin{43 }%
+\CSLLeftMargin{49 }%
 \CSLRightInline{Lortie, C. J., Allesina, S., Aarssen, L., Grod, O. and
 Budden, A. E. (2013) With great power comes great responsibility: The
 importance of rejection, power, and editors in the practice of
-scientific publishing. \uline{PLoS One} 8, e85382.}
+scientific publishing. \ul{PLoS One} 8, e85382.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-BayesNet}{}}%
-\CSLLeftMargin{44 }%
+\CSLLeftMargin{50 }%
 \CSLRightInline{Eklöf, A., Tang, S. and Allesina, S. (2013) Secondary
-extinctions in food webs: A Bayesian network approach. \uline{Methods in
+extinctions in food webs: A Bayesian network approach. \ul{Methods in
 Ecology and Evolution} 4, 760--770.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Dimensions}{}}%
-\CSLLeftMargin{45 }%
+\CSLLeftMargin{51 }%
 \CSLRightInline{Eklöf, A., Jacob, U., Kopp, J.C., Bosch, J.,
 Castro-Urgal, R., Chacoff, N. P., Dalsgaard, B., Sassi, C. de, Galetti,
 M., Guimãrares Jr., P. R., et al. (2013) The dimensionality of
-ecological networks. \uline{Ecology Letters} 16, 577--583.}
+ecological networks. \ul{Ecology Letters} 16, 577--583.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-John2}{}}%
-\CSLLeftMargin{46 }%
+\CSLLeftMargin{52 }%
 \CSLRightInline{Parker, J. N., Lortie, C. and Allesina, S. (2013)
 Characterizing a scientific elite (b): Publication and citation patterns
 of the most highly cited scientists in environmental science and
-ecology. \uline{Scientometrics} 94, 469--480.}
+ecology. \ul{Scientometrics} 94, 469--480.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Nestedness}{}}%
-\CSLLeftMargin{47 }%
+\CSLLeftMargin{53 }%
 \CSLRightInline{Staniczenko, P.P.A., Kopp, J.C. and Allesina, S. (2013)
-The ghost of nestedness in ecological networks. \uline{Nature
+The ghost of nestedness in ecological networks. \ul{Nature
 Communications} 4, 1391.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-BodiniCities}{}}%
-\CSLLeftMargin{48 }%
+\CSLLeftMargin{54 }%
 \CSLRightInline{Bodini, A., Bondavalli, C. and Allesina, S. (2012)
 Cities as ecosystems: Growth, development and implications for
-sustainability. \uline{Ecological Modelling} 245, 185--198.}
+sustainability. \ul{Ecological Modelling} 245, 185--198.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Cities2}{}}%
-\CSLLeftMargin{49 }%
+\CSLLeftMargin{55 }%
 \CSLRightInline{Bodini, A., Bondavalli, C. and Allesina,S. (2012) Cities
 as ecosystems: Functional similarities and the quest for sustainability.
-\uline{Developments in Environmental Modelling} 25, 297--318.}
+\ul{Developments in Environmental Modelling} 25, 297--318.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Ana}{}}%
-\CSLLeftMargin{50 }%
+\CSLLeftMargin{56 }%
 \CSLRightInline{Martin-González, A. M., Allesina, S., Rodrigo, A. and
 Bosch, J. (2012) Drivers of compartmentalization in a Mediterranean
-pollination network. \uline{Oikos} 121, 2001--2013.}
+pollination network. \ul{Oikos} 121, 2001--2013.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-NewsAndViews}{}}%
-\CSLLeftMargin{51 }%
+\CSLLeftMargin{57 }%
 \CSLRightInline{Allesina, S. (2012) Ecology: The more the merrier --
-News \& Views. \uline{Nature} 487, 175--176.}
+News \& Views. \ul{Nature} 487, 175--176.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-PeerReview}{}}%
-\CSLLeftMargin{52 }%
+\CSLLeftMargin{58 }%
 \CSLRightInline{Allesina, S. (2012) Modeling peer review: An agent-based
-approach. \uline{Ideas in Ecology and Evolution} 5, 27--35.}
+approach. \ul{Ideas in Ecology and Evolution} 5, 27--35.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-StabilityCriteria}{}}%
-\CSLLeftMargin{53 }%
+\CSLLeftMargin{59 }%
 \CSLRightInline{Allesina, S. and Tang, S. (2012) Stability criteria for
-complex ecosystems. \uline{Nature} 483, 205--208.}
+complex ecosystems. \ul{Nature} 483, 205--208.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Chris}{}}%
-\CSLLeftMargin{54 }%
+\CSLLeftMargin{60 }%
 \CSLRightInline{Lortie, C. J., Aarssen, L., Parker, J. P. and Allesina,
 S. (2012) Good news for the people who love bad news: An analysis of the
-funding of the top 1\% most highly cited ecologists. \uline{Oikos} 121,
+funding of the top 1\% most highly cited ecologists. \ul{Oikos} 121,
 1005--1008.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-CarlosSex}{}}%
-\CSLLeftMargin{55 }%
+\CSLLeftMargin{61 }%
 \CSLRightInline{Melián, C. J., Alonso, D., Allesina, S., Condit, R. S.
 and Etienne, R. S. (2012) Does sex speed up evolutionary rate and
-increase biodiversity? \uline{PLoS Computational Biology} 8, e1002414.}
+increase biodiversity? \ul{PLoS Computational Biology} 8, e1002414.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Konrad}{}}%
-\CSLLeftMargin{56 }%
+\CSLLeftMargin{62 }%
 \CSLRightInline{Acuna, D. E., Allesina, S. and Kording, K. P. (2012)
-Future impact: Predicting scientific success. \uline{Nature} 489,
+Future impact: Predicting scientific success. \ul{Nature} 489,
 201--202.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Taxonomy}{}}%
-\CSLLeftMargin{57 }%
+\CSLLeftMargin{63 }%
 \CSLRightInline{Eklöf, A., Helmus, M., Moore, M and Allesina, S. (2012)
 Relevance of evolutionary history for food web structure.
-\uline{Proceedings of the Royal Society B: Biological Sciences} 279,
+\ul{Proceedings of the Royal Society B: Biological Sciences} 279,
 1588--1596.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-ADBM}{}}%
-\CSLLeftMargin{58 }%
+\CSLLeftMargin{64 }%
 \CSLRightInline{Allesina, S. (2011) Predicting trophic relations in
 ecological networks: A test of the Allometric Diet Breadth Model.
-\uline{Journal of Theoretical Biology} 279, 161--168.}
+\ul{Journal of Theoretical Biology} 279, 161--168.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Nepotism}{}}%
-\CSLLeftMargin{59 }%
+\CSLLeftMargin{65 }%
 \CSLRightInline{Allesina, S. (2011) Measuring nepotism through shared
-last names: The case of Italian academia. \uline{PLoS ONE} 6, e21160.}
+last names: The case of Italian academia. \ul{PLoS ONE} 6, e21160.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Ferrarini}{}}%
-\CSLLeftMargin{60 }%
+\CSLLeftMargin{66 }%
 \CSLRightInline{Allesina, S. and Levine, J. M. (2011) Reply to
 Ferrarini: Strengths and weaknesses of simple competition models.
-\uline{Proceedings of the National Academy of Sciences of the United
-States of America} 108, E346.}
+\ul{Proceedings of the National Academy of Sciences of the United States
+of America} 108, E346.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-RPS}{}}%
-\CSLLeftMargin{61 }%
+\CSLLeftMargin{67 }%
 \CSLRightInline{Allesina, S. and Levine, J. M. (2011) A competitive
-network theory of species diversity. \uline{Proceedings of the National
+network theory of species diversity. \ul{Proceedings of the National
 Academy of Sciences of the United States of America} 108, 5638--5642.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Seregenti}{}}%
-\CSLLeftMargin{62 }%
+\CSLLeftMargin{68 }%
 \CSLRightInline{Baskerville, E. B., Dobson, A. P., Bedford, T.,
 Allesina, S., Anderson, T. M. and Pascual, M. (2011) Spatial guilds in
-the Serengeti food web revealed by a Bayesian group model. \uline{PLoS
+the Serengeti food web revealed by a Bayesian group model. \ul{PLoS
 Computational Biology} 7, e1002321.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-JOSE}{}}%
-\CSLLeftMargin{63 }%
+\CSLLeftMargin{69 }%
 \CSLRightInline{Rojas-Echenique, J. and Allesina, S. (2011) Interaction
-rules affect species coexistence in intransitive networks.
-\uline{Ecology} 92, 1174--1180.}
+rules affect species coexistence in intransitive networks. \ul{Ecology}
+92, 1174--1180.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Alex}{}}%
-\CSLLeftMargin{64 }%
+\CSLLeftMargin{70 }%
 \CSLRightInline{Zook, A.E., Eklöf, A., Jacob, U. and Allesina, S. (2011)
 Food webs: Ordering species according to body size yields high degree of
-intervality. \uline{Journal of Theoretical Biology} 271, 106--113.}
+intervality. \ul{Journal of Theoretical Biology} 271, 106--113.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Daria}{}}%
-\CSLLeftMargin{65 }%
+\CSLLeftMargin{71 }%
 \CSLRightInline{Allesina, S., Azzi, A., Battini, D. and Regattieri, A.
 (2010) Performance measurement in supply chains: New network analysis
-and entropic indexes. \uline{International Journal of Production
-Research} 48, 2297--2321.}
+and entropic indexes. \ul{International Journal of Production Research}
+48, 2297--2321.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Carlos}{}}%
-\CSLLeftMargin{66 }%
+\CSLLeftMargin{72 }%
 \CSLRightInline{Melián, C. J., Alonso, D., Vázquez, D. P., Regetz, J.
 and Allesina, S. (2010) Frequency-dependent selection predicts patterns
-of radiations and biodiversity. \uline{PLoS Computational Biology} 6,
+of radiations and biodiversity. \ul{PLoS Computational Biology} 6,
 e1000892.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-John}{}}%
-\CSLLeftMargin{67 }%
+\CSLLeftMargin{73 }%
 \CSLRightInline{Parker, J. N., Lortie, C. and Allesina, S. (2010)
 Characterizing a scientific elite: The social characteristics of the
 most highly cited scientists in environmental science and ecology.
-\uline{Scientometrics} 85, 129--143.}
+\ul{Scientometrics} 85, 129--143.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Catching}{}}%
-\CSLLeftMargin{68 }%
+\CSLLeftMargin{74 }%
 \CSLRightInline{Bodini, A., Bellingeri, M., Allesina, S. and Bondavalli,
 C. (2009) Using food web dominator trees to catch secondary extinctions
-in action. \uline{Philosophical Transactions of the Royal Society B:
+in action. \ul{Philosophical Transactions of the Royal Society B:
 Biological Sciences} 364, 1725--1731.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Andy}{}}%
-\CSLLeftMargin{69 }%
+\CSLLeftMargin{75 }%
 \CSLRightInline{Dobson, A., Allesina, S., Lafferty, K. and Pascual, M.
 (2009) The assembly, collapse and restoration of food webs.
-\uline{Philosophical Transactions of the Royal Society B: Biological
+\ul{Philosophical Transactions of the Royal Society B: Biological
 Sciences} 364, 1803--1806.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Redundant}{}}%
-\CSLLeftMargin{70 }%
+\CSLLeftMargin{76 }%
 \CSLRightInline{Allesina, S., Bodini, A. and Pascual, M. (2009)
-Functional links and robustness in food webs. \uline{Philosophical
+Functional links and robustness in food webs. \ul{Philosophical
 Transactions of the Royal Society B: Biological Sciences} 364,
 1701--1709.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Google}{}}%
-\CSLLeftMargin{71 }%
+\CSLLeftMargin{77 }%
 \CSLRightInline{Allesina, S. and Pascual, M. (2009) Googling food webs:
 Can an eigenvector measure species' importance for coextinctions?
-\uline{PLoS Computational Biology} 5, e1000494.}
+\ul{PLoS Computational Biology} 5, e1000494.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Groups}{}}%
-\CSLLeftMargin{72 }%
+\CSLLeftMargin{78 }%
 \CSLRightInline{Allesina, S. and Pascual, M. (2009) Food web models: A
-plea for groups. \uline{Ecology Letters} 12, 652--662.}
+plea for groups. \ul{Ecology Letters} 12, 652--662.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Marco}{}}%
-\CSLLeftMargin{73 }%
+\CSLLeftMargin{79 }%
 \CSLRightInline{Scotti, M., Bondavalli, C., Bodini, A. and Allesina, S.
 (2009) Using trophic hierarchy to understand food web structure.
-\uline{Oikos} 118, 1695--1702.}
+\ul{Oikos} 118, 1695--1702.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Science08}{}}%
-\CSLLeftMargin{74 }%
+\CSLLeftMargin{80 }%
 \CSLRightInline{Allesina, S., Alonso, D. and Pascual, M. (2008) A
-general model for food web structure. \uline{Science} 320, 658--661.}
+general model for food web structure. \ul{Science} 320, 658--661.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-PredPrey}{}}%
-\CSLLeftMargin{75 }%
+\CSLLeftMargin{81 }%
 \CSLRightInline{Allesina, S. and Pascual, M. (2008) Network structure,
-predator-prey modules, and stability in large food webs.
-\uline{Theoretical Ecology} 1, 55--64.}
+predator-prey modules, and stability in large food webs. \ul{Theoretical
+Ecology} 1, 55--64.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Kevin}{}}%
-\CSLLeftMargin{76 }%
+\CSLLeftMargin{82 }%
 \CSLRightInline{Lafferty, K. D., Allesina, S., Arim, M., Briggs, C. J.,
 De Leo, G., Dobson, A. P., Dunne, J. A., Johnson, P. T. J., Kuris, A.
 M., Marcogliese, D. J., et al. (2008) Parasites in food webs: The
-ultimate missing links. \uline{Ecology Letters} 11, 533--546.}
+ultimate missing links. \ul{Ecology Letters} 11, 533--546.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-battini2007towards}{}}%
-\CSLLeftMargin{77 }%
+\CSLLeftMargin{83 }%
 \CSLRightInline{Battini, D., Persona, A. and Allesina, S. (2007) Towards
 a use of network analysis: Quantifying the complexity of supply chain
-networks. \uline{International Journal of Electronic Customer
-Relationship Management} 1, 75--90.}
+networks. \ul{International Journal of Electronic Customer Relationship
+Management} 1, 75--90.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Dove2}{}}%
-\CSLLeftMargin{78 }%
+\CSLLeftMargin{84 }%
 \CSLRightInline{Peacor, S. D., Allesina, S., Riolo, R. L. and Hunter, T.
 S. (2007) A new computational system, DOVE (digital organisms in a
 virtual ecosystem), to study phenotypic plasticity and its effects in
-food webs. \uline{Ecological Modelling} 205, 13--28.}
+food webs. \ul{Ecological Modelling} 205, 13--28.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Bottle}{}}%
-\CSLLeftMargin{79 }%
+\CSLLeftMargin{85 }%
 \CSLRightInline{Allesina, S., Bodini, A. and Bondavalli, C. (2006)
 Secondary extinctions in ecological networks: Bottlenecks unveiled.
-\uline{Ecological Modelling} 194, 150--161.}
+\ul{Ecological Modelling} 194, 150--161.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Santo}{}}%
-\CSLLeftMargin{80 }%
+\CSLLeftMargin{86 }%
 \CSLRightInline{Bondavalli, C., Bodini, A., Rossetti, G. and Allesina,
 S. (2006) Detecting stress at the whole-ecosystem level: The case of a
-mountain lake (Lake Santo, Italy). \uline{Ecosystems} 9, 768--787.}
+mountain lake (Lake Santo, Italy). \ul{Ecosystems} 9, 768--787.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Marco2}{}}%
-\CSLLeftMargin{81 }%
+\CSLLeftMargin{87 }%
 \CSLRightInline{Scotti, M., Allesina, S., Bondavalli, C., Bodini, A. and
 Abarca-Arenas, L. G. (2006) Effective trophic positions in ecological
-acyclic networks. \uline{Ecological Modelling} 198, 495--505.}
+acyclic networks. \ul{Ecological Modelling} 198, 495--505.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Dove}{}}%
-\CSLLeftMargin{82 }%
+\CSLLeftMargin{88 }%
 \CSLRightInline{Peacor, S. D., Allesina, S., Riolo, R. L. and Pascual,
 M. (2006) Phenotypic plasticity opposes species invasions by altering
-fitness surface. \uline{PLoS Biology} 4, 2112--2120.}
+fitness surface. \ul{PLoS Biology} 4, 2112--2120.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-ScalingRevis}{}}%
-\CSLLeftMargin{83 }%
+\CSLLeftMargin{89 }%
 \CSLRightInline{Allesina, S. and Bodini, A. (2005) Food web networks:
-Scaling relation revisited. \uline{Ecological Complexity} 2, 323--338.}
+Scaling relation revisited. \ul{Ecological Complexity} 2, 323--338.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-SCC}{}}%
-\CSLLeftMargin{84 }%
+\CSLLeftMargin{90 }%
 \CSLRightInline{Allesina, S., Bodini, A. and Bondavalli, C. (2005)
 Ecological subsystems via graph theory: The role of strongly connected
-components. \uline{Oikos} 110, 164--176.}
+components. \ul{Oikos} 110, 164--176.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Aggregation}{}}%
-\CSLLeftMargin{85 }%
+\CSLLeftMargin{91 }%
 \CSLRightInline{Allesina, S., Bondavalli, C. and Scharler, U. M. (2005)
 The consequences of the aggregation of detritus pools in ecological
-networks. \uline{Ecological Modelling} 189, 221--232.}
+networks. \ul{Ecological Modelling} 189, 221--232.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Dominators}{}}%
-\CSLLeftMargin{86 }%
+\CSLLeftMargin{92 }%
 \CSLRightInline{Allesina, S. and Bodini, A. (2004) Who dominates whom in
 the ecosystem? Energy flow bottlenecks and cascading extinctions.
-\uline{Journal of Theoretical Biology} 230, 351--358.}
+\ul{Journal of Theoretical Biology} 230, 351--358.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-WAND}{}}%
-\CSLLeftMargin{87 }%
+\CSLLeftMargin{93 }%
 \CSLRightInline{Allesina, S. and Bondavalli, C. (2004) WAND: An
-ecological network analysis user-friendly tool. \uline{Environmental
+ecological network analysis user-friendly tool. \ul{Environmental
 Modelling and Software} 19, 337--340.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Cycling}{}}%
-\CSLLeftMargin{88 }%
+\CSLLeftMargin{94 }%
 \CSLRightInline{Allesina, S. and Ulanowicz, R. E. (2004) Cycling in
-ecological networks: Finn's index revisited. \uline{Computational
-Biology and Chemistry} 28, 227--233.}
+ecological networks: Finn's index revisited. \ul{Computational Biology
+and Chemistry} 28, 227--233.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Balance}{}}%
-\CSLLeftMargin{89 }%
+\CSLLeftMargin{95 }%
 \CSLRightInline{Allesina, S. and Bondavalli, C. (2003) Steady state of
 ecosystem flow networks: A comparison between balancing procedures.
-\uline{Ecological Modelling} 165, 221--229.}
+\ul{Ecological Modelling} 165, 221--229.}
 
 \hypertarget{preprints}{%
 \section{Preprints}\label{preprints}}
 
 \hypertarget{bibliography}{}
-\leavevmode\vadjust pre{\hypertarget{ref-skwara2022modeling}{}}%
-\CSLLeftMargin{1 }%
-\CSLRightInline{Skwara, A., Lemos-Costa, P., Miller, Z. R. and Allesina,
-S. (2022) Modeling ecological communities when composition is
-manipulated experimentally. \uline{bioRxiv}, Cold Spring Harbor
-Laboratory.}
-
-\leavevmode\vadjust pre{\hypertarget{ref-medeiros2022ranking}{}}%
-\CSLLeftMargin{2 }%
-\CSLRightInline{Medeiros, L. P., Allesina, S., Dakos, V., Sugihara, G.
-and Saavedra, S. (2022) Ranking species based on sensitivity to
-perturbations under non-equilibrium community dynamics. \uline{bioRxiv},
-Cold Spring Harbor Laboratory.}
-
-\leavevmode\vadjust pre{\hypertarget{ref-miller2022habitat}{}}%
-\CSLLeftMargin{3 }%
-\CSLRightInline{Miller, Z. R. and Allesina, S. (2022) Habitat
-heterogeneity, environmental feedbacks, and species coexistence across
-timescales. \uline{bioRxiv}, Cold Spring Harbor Laboratory.}
-
 \leavevmode\vadjust pre{\hypertarget{ref-allesina2021intraspecific}{}}%
-\CSLLeftMargin{4 }%
+\CSLLeftMargin{1 }%
 \CSLRightInline{Allesina, S., Miller, Z.R. and Serván, C.A. (2021)
 Intraspecific variation stabilizes classic predator-prey dynamics.
-\uline{bioRxiv}, Cold Spring Harbor Laboratory.}
-
-\leavevmode\vadjust pre{\hypertarget{ref-servan2020effects}{}}%
-\CSLLeftMargin{5 }%
-\CSLRightInline{Serván, C.A., Capitán, J. A., Miller, Z.R. and Allesina,
-S. (2020) Effects of phylogeny on coexistence in model communities.
-\uline{bioRxiv}, Cold Spring Harbor Laboratory.}
+\ul{bioRxiv}, Cold Spring Harbor Laboratory.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Superellipse}{}}%
-\CSLLeftMargin{6 }%
+\CSLLeftMargin{2 }%
 \CSLRightInline{Allesina, S., Sander, E., Smith, M.J. and Tang, S.
-(2013) Superelliptical laws for complex networks. \uline{arXiv}.}
+(2013) Superelliptical laws for complex networks. \ul{arXiv}.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-NepotismResponse}{}}%
-\CSLLeftMargin{7 }%
+\CSLLeftMargin{3 }%
 \CSLRightInline{Allesina, S. (2012) Measuring nepotism through shared
-last names: Response to Ferlazzo and Sdoia. \uline{arXiv}.}
+last names: Response to Ferlazzo and Sdoia. \ul{arXiv}.}
 
 \hypertarget{books-book-reviews-chapters}{%
 \section{Books, book reviews \&
@@ -785,7 +805,7 @@ biologists --- a toolbox, Princeton University Press, Princeton, NJ.}
 \leavevmode\vadjust pre{\hypertarget{ref-BookReview2}{}}%
 \CSLLeftMargin{4 }%
 \CSLRightInline{Allesina, S. (2013) Food web stability, unapologetically
--- Book review. \uline{Ecology} 94, 2114--2115.}
+-- Book review. \ul{Ecology} 94, 2114--2115.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-librobo}{}}%
 \CSLLeftMargin{5 }%
@@ -802,7 +822,7 @@ eds.), pp 470--478, U. California Press, Berkeley, CA.}
 \leavevmode\vadjust pre{\hypertarget{ref-BookReview}{}}%
 \CSLLeftMargin{7 }%
 \CSLRightInline{Allesina, S. (2009) Learning R the practical way -- Book
-review. \uline{Ecology} 90, 2335--2336.}
+review. \ul{Ecology} 90, 2335--2336.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Allesina2008812}{}}%
 \CSLLeftMargin{8 }%
@@ -870,8 +890,8 @@ Zach Miller (2017-2022), Pablo Lechon-Alonso (2021-)
 
 Anna Eklöf (2010-2012), Phillip Staniczenko (2011-2013), Samraat Pawar
 (2012-2013), György Barabás (2014-2016), Madlen Wilmes (2015), Jacopo
-Grilli (2015-2017), Daniel Maynard (2017-2019), Paula Lemos-Costa
-(2019-), Srilena Kundu (2022-)
+Grilli (2015-2017), Daniel Maynard (2017-2019), Srilena Kundu
+(2022-2024), Paula Lemos-Costa (2019-)
 
 \hypertarget{undergraduatepredoctoral}{%
 \subsection{Undergraduate/predoctoral}\label{undergraduatepredoctoral}}
@@ -913,6 +933,9 @@ Theo Gibbs (2016-2018), Kevin Trickey (2017), Abby Skwara (2019-2021)
 
 \begin{itemize}
 \tightlist
+\item
+  College Council (nominated) and Committee of the College Council
+  (elected), 2024-
 \item
   Committee on Future Academic Directions in Climate and Energy,
   advising President Alivisatos and Provost Lee, 2022
