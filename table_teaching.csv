@@ -1,16 +1,18 @@
-Class,Type,Years,Instructors,
-Theoretical Ecology,Graduate,2009–2011; 2023,Allesina & Dwyer,
-Theoretical Community Ecology,Graduate,2021–2022,Allesina,
-Fundamentals of Biological Data Analysis,Undergraduate,2018--,Allesina & Kondrashov,
-Computing Skills for Biologists,Graduate,2012--2020,Allesina,
-How can we understand the biosphere?,Undergraduate,2016--2018,Allesina & Kronforst,
-Evolution & Ecology,Undergraduate,2009--2015,Allesina & Coyne, Allesina & Kronforst
-"ICTP Winter School on Quantitative Systems Biology: Quantitative Approaches in Ecosystem Ecology, Remote",School,2021,"Allesina, lecturer ",
-"ICTP SAIFR School on Community Ecology, São Paulo, Brazil",School,2020,"Allesina, lecturer ",
-"Mini course on Computing Skills for Biologists, Evóra, Portugal",School,2019,Allesina,
-"Mini course BIOS 248 Scientific Computing for Ecologists, Stanford Universtity Hopkins Marine Station",Graduate,2015,Allesina,
-"ICTP Spring College on the Physics of Complex Systems, Trieste, Italy",School,2014,"Allesina, lecturer",
-"São Paulo School on Ecological Networks, São Paulo, Brazil",School,2011,"Allesina, lecturer",
-"Biological Networks, University of Fribourg, Switzerland",School,2011,"Allesina, lecturer",
-"ICTP Theoretical Ecology and Global Change, Trieste, Italy",School,2009,"Allesina, lecturer",
-"Ecosystem Networks Modeling, University of Copenhagen, Denmark",School,2005--2006,"Allesina, lecturer",
+"Class","Type","Years","Instructors"
+"Theoretical Ecology","Graduate","2009–2011; 2023","Allesina & Dwyer"
+"Theoretical Community Ecology","Graduate","2021--2022; 2025","Allesina"
+"Fundamentals of Biological Data Analysis","Undergraduate","2018--","Allesina & Kondrashov"
+"Computing Skills for Biologists","Graduate","2012--2020","Allesina"
+"How can we understand the biosphere?","Undergraduate","2016--2018","Allesina & Kronforst"
+"Evolution & Ecology","Undergraduate","2009--2015","Allesina & Coyne"
+"Serraphiliera Training in Quantitative Ecology","School",2025,"Allesina, lecturer "
+"ICTP-ICTS Winter School on Quantitative Systems Biology","School",2025,"Allesina, lecturer "
+"ICTP Winter School on Quantitative Systems Biology: Quantitative Approaches in Ecosystem Ecology, Remote","School",2021,"Allesina, lecturer "
+"ICTP SAIFR School on Community Ecology, São Paulo, Brazil","School",2020,"Allesina, lecturer "
+"Mini course on Computing Skills for Biologists, Evóra, Portugal","School",2019,"Allesina"
+"Mini course BIOS 248 Scientific Computing for Ecologists, Stanford Universtity Hopkins Marine Station","Graduate",2015,"Allesina"
+"ICTP Spring College on the Physics of Complex Systems, Trieste, Italy","School",2014,"Allesina, lecturer"
+"São Paulo School on Ecological Networks, São Paulo, Brazil","School",2011,"Allesina, lecturer"
+"Biological Networks, University of Fribourg, Switzerland","School",2011,"Allesina, lecturer"
+"ICTP Theoretical Ecology and Global Change, Trieste, Italy","School",2009,"Allesina, lecturer"
+"Ecosystem Networks Modeling, University of Copenhagen, Denmark","School","2005--2006","Allesina, lecturer"

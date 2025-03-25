@@ -1,10 +1,14 @@
-PI,Money,Title,Period,Agency
-PI: Allesina,"$449,295",Revisiting the relationship between phylogenetic diversity and productivity DEB #2022742,10/20 – 10/23,National Science Foundation
-"PI: Allesina, five Co-PIs","$150,000",Quantitative and Statistical Thinking in the Life Sciences: Quantitative Biology Fellowships,10/10 – 10/20,Burroughs Wellcome Fund Foundation
-"PI: Prince, Co-PI Allesina & Palmer","$499,259",Reproducibility and Rigor in Quantitative Biology: A Hands-on Approach NRT #1734818,9/17 – 8/21,National Science Foundation
-PI: Kammenga & Allesina,"$750,000",Crossing the ultimate tipping point: predicting death in C. elegans,12/14 – 12/18,Human Frontier Science Program
-PI: Allesina & Thébault.,"$8,000",Spectral Characterization of Ecological Networks,2/14 – 2/15,FACCTS U. Chicago
-PI: Allesina,"$599,244",CAREER: Scientific Computing for a New Generation of Ecologists DEB #1148867,9/12 – 8/18,National Science Foundation
-PI: Allesina Co-PI: Bergelson,"$449,817",Bacteria test biodiversity theories,8/10 – 7/14,James S. McDonnell Foundation
-PI: Allesina,"$240,073",Accelerating the pace of discovery by changing the peer review algorithm SBE EAGER #1042164,8/10 – 7/14,National Science Foundation
-PI: Pascual Co-PI: Allesina,"$636,000",The Spider and the Web: inference in ecological networks EF #0827493,9/08 – 8/14,National Science Foundation
+"PI","Money","Title","Period","Agency"
+"PI: Allesina and Mangan, two Co-PI","$175,000","Inferring models for microbial dynamics","1/25 – 1/26","NITMB"
+"PI: Allesina, two Co-PI","$11,600","Advancing Eco-Evolutionary modeling—theory and applications","1/25 – 1/26","Chicago-Vienna"
+"PI: Allesina and Mangan, two Co-PI","$121,814","Inferring models for microbial dynamics","1/24 – 1/25","NITMB"
+"PI: Allesina, Co-PI: Massol","$15,500","Models with Higher-Order Interactions in Ecology, Evolution, and Epidemiology","5/23 – 5/25","FACCTS U. Chicago"
+"PI: Allesina","$449,295","Revisiting the relationship between phylogenetic diversity and productivity DEB #2022742","10/20 – 10/23","National Science Foundation"
+"PI: Allesina, five Co-PIs","$150,000","Quantitative and Statistical Thinking in the Life Sciences: Quantitative Biology Fellowships","10/10 – 10/20","Burroughs Wellcome Fund Foundation"
+"PI: Prince, Co-PI Allesina & Palmer","$499,259","Reproducibility and Rigor in Quantitative Biology: A Hands-on Approach NRT #1734818","9/17 – 8/21","National Science Foundation"
+"PI: Kammenga & Allesina","$750,000","Crossing the ultimate tipping point: predicting death in C. elegans","12/14 – 12/18","Human Frontier Science Program"
+"PI: Allesina & Thébault.","$8,000","Spectral Characterization of Ecological Networks","2/14 – 2/15","FACCTS U. Chicago"
+"PI: Allesina","$599,244","CAREER: Scientific Computing for a New Generation of Ecologists DEB #1148867","9/12 – 8/18","National Science Foundation"
+"PI: Allesina Co-PI: Bergelson","$449,817","Bacteria test biodiversity theories","8/10 – 7/14","James S. McDonnell Foundation"
+"PI: Allesina","$240,073","Accelerating the pace of discovery by changing the peer review algorithm SBE EAGER #1042164","8/10 – 7/14","National Science Foundation"
+"PI: Pascual Co-PI: Allesina","$636,000","The Spider and the Web: inference in ecological networks EF #0827493","9/08 – 8/14","National Science Foundation"

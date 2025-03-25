@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  10 SEP 2024 10:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  25 MAR 2025 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1171,24 +1171,24 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
 
 ] [2] [3] [4] [5]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 912.
+(Font)              scaled to size 12.0pt on input line 931.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 912.
+(Font)              scaled to size 12.0pt on input line 931.
 
-Overfull \hbox (2.54916pt too wide) in paragraph at lines 914--917
+Overfull \hbox (2.54916pt too wide) in paragraph at lines 933--936
 []\TU/SourceSansPro(1)/m/n/10 Si Tang (2010-2013), Elizabeth Sander (2012-2017)
  (with J.T. Wootton), Matthew Michalska-Smith (2013-2018), Carlos Marcelo Servá
 n
  []
 
 
-Overfull \hbox (2.56851pt too wide) in paragraph at lines 929--933
+Overfull \hbox (2.56851pt too wide) in paragraph at lines 948--953
 []\TU/SourceSansPro(1)/m/n/10 Jose Rojas (2009-2010), Alex Zook (2009-2010), Ph
 ilip Reinhold (2010-2011), M Moore (2010-2011), Jason Kopp (2011-2012), Matthew
 
  []
 
-[6] [7] [8] [9] [10] [11] (./StefanoAllesina.aux)
+[6] [7] [8] [9] [10] [11] [12] (./StefanoAllesina.aux)
 Package rerunfilecheck Info: File `StefanoAllesina.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'StefanoAllesina.run.xml'.
@@ -1198,10 +1198,10 @@ Package logreq Info: Writing requests to 'StefanoAllesina.run.xml'.
 Here is how much of TeX's memory you used:
  39805 strings out of 476191
  803399 string characters out of 5812072
- 1746616 words of memory out of 5000000
+ 1757619 words of memory out of 5000000
  59941 multiletter control sequences out of 15000+600000
  472914 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,553b,846s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on StefanoAllesina.pdf (11 pages).
+Output written on StefanoAllesina.pdf (12 pages).
